@@ -1,18 +1,15 @@
 import React from "react";
-import Home from "./Home";
+
 import { Link } from "react-router-dom";
-import Location from "./Location";
-import Table from "./Table";
-import HookRedux from "./HookRedux";
-import Form from "./Form";
+
 const NavBar = () => {
   return (
     <div style={{marginTop: '3rem'}}>
       <div className="navbar navbar-expand-lg" style={{backgroundColor: '#7091E6'}}>
         <div className="container-fluid">
-          <a className="navbar-brand" >
+          <Link to='/' className="navbar-brand" >
             <img src='/images/logo.png' />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"

@@ -1,12 +1,12 @@
 import React from "react";
 
-const Footer = () => {
+export const Footer = () => {
   return (
-    <div className="container" >
-      <div className="container my-5" >
+    <div className="container">
+      <div className="container my-5">
         <footer
-          className="text-center text-lg-start text-white" style={{backgroundColor: '#7091E6'}}
-          
+          className="text-center text-lg-start text-white" style={{ backgroundColor: '#7091E6' }}
+
         >
           <div className="container p-4 pb-0">
             <section className="">
@@ -67,8 +67,8 @@ const Footer = () => {
 
                   <a
                     className="btn btn-primary btn-floating m-1"
-                    
-                    style={{backgroundColor: '#3b5998'}}
+
+                    style={{ backgroundColor: '#3b5998' }}
                     href="#!"
                     role="button"
                   >
@@ -77,7 +77,7 @@ const Footer = () => {
 
                   <a
                     className="btn btn-primary btn-floating m-1"
-                    style={{backgroundColor: '#55acee'}}
+                    style={{ backgroundColor: '#55acee' }}
                     href="#!"
                     role="button"
                   >
@@ -86,8 +86,8 @@ const Footer = () => {
 
                   <a
                     className="btn btn-primary btn-floating m-1"
-                    
-                    style={{backgroundColor: '#dd4b39'}}
+
+                    style={{ backgroundColor: '#dd4b39' }}
                     href="#!"
                     role="button"
                   >
@@ -96,8 +96,8 @@ const Footer = () => {
 
                   <a
                     className="btn btn-primary btn-floating m-1"
-                    
-                    style={{backgroundColor: '#ac2bac'}}
+
+                    style={{ backgroundColor: '#ac2bac' }}
                     href="#!"
                     role="button"
                   >
@@ -106,7 +106,7 @@ const Footer = () => {
 
                   <a
                     className="btn btn-primary btn-floating m-1"
-                    style={{backgroundColor: '#0082ca'}}
+                    style={{ backgroundColor: '#0082ca' }}
                     href="#!"
                     role="button"
                   >
@@ -115,7 +115,7 @@ const Footer = () => {
 
                   <a
                     className="btn btn-primary btn-floating m-1"
-                    style={{backgroundColor: '#333333'}}
+                    style={{ backgroundColor: '#333333' }}
                     href="#!"
                     role="button"
                   >
@@ -128,7 +128,7 @@ const Footer = () => {
 
           <div
             className="text-center p-3"
-            style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}
+            style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
           >
             © 2024 Copyright:
             <a className="text-white" href="https://mdbootstrap.com/">
@@ -140,5 +140,3 @@ const Footer = () => {
     </div>
   );
 };
-
-export default Footer;
