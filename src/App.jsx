@@ -6,7 +6,7 @@ import Location from "./Components/Location";
 import Table from "./Components/Table";
 import HookRedux from "./Components/HookRedux";
 import Form from "./Components/Form";
-import Footer from "./Components/Footer.1";
+import Footer from "./Components/Footer";
 import "./StyleSheets/App.css";
 
 const App = () => {
